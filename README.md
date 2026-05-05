@@ -1,6 +1,6 @@
-# 📦 API Sistema de Endereços e Entregas
+# 📦 API Comida
 
-Uma API RESTful desenvolvida em Spring Boot para o gerenciamento de endereços residenciais e controle de entregas. Este projeto foi desenvolvido como parte das atividades da FIAP.
+Este projeto foi desenvolvido como parte das atividades da FIAP.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -27,6 +27,6 @@ docker run -d \
     -e MYSQL_ROOT_PASSWORD=root_pwd \
     -e MYSQL_USER=new_user \
     -e MYSQL_PASSWORD=my_pwd \
-    -e MYSQL_DATABASE=db_endereco \
+    -e MYSQL_DATABASE=db_comidas \
     -p 3306:3306 \
     mysql:8.0
